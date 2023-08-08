@@ -1,0 +1,37 @@
+npm init -y
+
+npm i express nodemon
+
+in pachage.json =>
+change main from index to server
+
+add script =>
+"start" : "node server",
+"dev":"nodemon server"
+
+npm i date-fns uuid
+
+npm i cookie-parser
+npm i cors
+
+npm i dotenv
+npm i mongoose
+
+npm i mongoose-sequence
+
+npm i express-async-handler bcrypt
+
+npm i express-rate-limit
+
+npm i jsonwebtoken
+
+=> open terminal and run node by typing => node
+and the type to generate the access_token_secret
+-> require('crypto').randomBytes(64).toString('hex')
+
+run it again for refresh_token_secret
+
+npm i express-async-errors
+
+npm uninstall express-async-handler
+
